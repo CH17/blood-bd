@@ -1,6 +1,6 @@
 ## About
 
-Blood BD is a tutorial project to demonstrate basic Laravel features including Authentication, Security, Advance search. Feel free to enhance.... 
+Blood BD is a tutorial project to demonstrate basic Laravel features including Authentication, Security, Advance google place search. Feel free to enhance.... 
 
 ## Usuage
 
