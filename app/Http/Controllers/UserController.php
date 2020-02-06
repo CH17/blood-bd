@@ -66,9 +66,10 @@ class UserController extends Controller
     }
 
 
+
     public function GRequest($address){
         
-        $google_api_key = 'AIzaSyAc0Mb5-8IbJL2J-6v549sEEg5QZc6Kmxk';
+      //  $google_api_key = env('GOOGLE_API_KEY', false);
                
         $client = new \GuzzleHttp\Client();
 

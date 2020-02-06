@@ -574,4 +574,5 @@ footer {
 .btn.active,
 .btn:active,
 .btn:focus {
-  outline: none; }
+  outline: none; 
+}
