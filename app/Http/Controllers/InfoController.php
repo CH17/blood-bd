@@ -34,7 +34,10 @@ class InfoController extends Controller
 
     public function GetHopitalbyAPI($query){
         
-        $google_api_key = 'AIzaSyAc0Mb5-8IbJL2J-6v549sEEg5QZc6Kmxk';
+        $google_api_key = env('GOOGLE_API_KEY', false);
+
+        if(!$google_api_key) return false;
+
         $query = "hospitals+in+".$query;
         $url = "https://maps.googleapis.com/maps/api/place/textsearch/json?query=".$query."&key=".$google_api_key;
         $client = new \GuzzleHttp\Client();
